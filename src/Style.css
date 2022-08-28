@@ -820,7 +820,7 @@ footer {
     justify-content: space-between;
 }
 
-.foot_1{
+.foot_1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -828,17 +828,65 @@ footer {
 }
 
 .foot_1 p,
-.foot_1 span{
+.foot_1 span {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.foot_1 span{
+.foot_1 span {
     padding-top: 16px;
 }
 
-.foot_2{
-    
+.foot_2 {
+    padding-top: 35px;
+    width: 94px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot_2 p,
+.foot_3 p,
+.foot_4 p,
+.foot_5 p,
+.foot_6 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot_3 {
+    padding-top: 35px;
+    width: 69px;
+    height: 48px;
+}
+
+.foot_4 {
+    padding-top: 35px;
+    width: 174px;
+    height: 72px;
+}
+
+.foot_5 {
+    padding-top: 35px;
+    width: 108px;
+    height: 75px;
+}
+
+#svg_f {
+    margin-left: 15px;
+}
+
+.foot_6 {
+    padding-top: 35px;
+    width: 253px;
+    height: 141px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
