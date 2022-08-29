@@ -14,6 +14,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a,
+button{
+    cursor: pointer;
+}
+
 #root {
     max-width: 1440px;
     width: 100%;
