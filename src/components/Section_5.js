@@ -3,38 +3,30 @@ import sec5_2 from "../img/sec5_2.png"
 import sec5_3 from "../img/sec5_3.png"
 import sec5_4 from "../img/sec5_4.png"
 
-function Section_5({malumot}){
-    return(
+function Section_5() {
+    return (
         <>
-        <section className="section5">
+            <section className="section5">
                 <div className="sec5_p">
                     <p>Тренеры </p>
                 </div>
-                
-                {
-                    malumot.map(item => (
-                <div className="sec5_1" id="sec_5">
+
+
+               <div className="sec5_b">
+               <div className="sec5_1" id="sec_5">
                     <img src={sec5_1} alt="" />
-                    <p>{item.name}</p>
-                    <span>{item.span1}</span>
-                    <span>{item.span2}</span>
-                    <span>{item.span3}</span>
+                    <p>Илья Панченко</p>
+                    <span>Персональный тренер</span>
+                    <span>Инструктор тренажерного зала</span>
+                    <span>Опыт работы — 4 года</span>
                 </div>
-                ))
-                }
 
-
-               {/* {
-                    malumot.map(item => (
                 <div className="sec5_1" id="sec_5">
                     <img src={sec5_2} alt="" />
-                    <p>{item.name2}</p>
-                    <span>{item.span4}</span>
-                    <span>{item.span5}</span>
+                    <p>Екатерина Сосина-Нуньес</p>
+                    <span>Фитнес-тренер</span>
+                    <span>Опыт работы — 4 года</span>
                 </div>
-                ))
-                } */}
-
 
                 <div className="sec5_1" id="sec_5_2">
                     <img src={sec5_3} alt="" />
@@ -57,6 +49,7 @@ function Section_5({malumot}){
                     </svg>
 
                 </div>
+               </div>
             </section>
         </>
     )

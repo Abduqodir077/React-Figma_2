@@ -9,6 +9,7 @@ function Footer(){
                     <p>Все права защищены</p>
                     <span>Орехово-Зуево, 2013-2022</span>
                 </div>
+                <div className="f_m">
                 <div className="foot_2">
                     <p> О нас</p>
                     <p>Галерея</p>
@@ -23,6 +24,8 @@ function Footer(){
                     <p>Абонемент по времени</p>
                     <p>Разовые тренировки</p>
                 </div>
+                </div>
+                <div className="f_m2">
                 <div className="foot_5">
                     <p>Наши соц.сети</p>
                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,6 +48,7 @@ function Footer(){
                     <p>Ежедневно с 8:00 до 23:00</p>
                     <p>+7 (496) 416-19-16, +7 (925) 881-21-70</p>
                     <p>Политика конфиденциальностi</p>
+                </div>
                 </div>
             </footer>
         </>
