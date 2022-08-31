@@ -1623,7 +1623,7 @@ color: #FFFFFF;
     }
 
     .f_m2 {
-        width: 400px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
