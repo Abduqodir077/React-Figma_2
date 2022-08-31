@@ -3,13 +3,18 @@ import line from "../img/sec 1 line.png"
 import sec1_1 from "../img/sec1_bi_1.png"
 import sec1_2 from "../img/sec1_bi_2.png"
 
-function Section_1(){
-    return(
+function Section_1() {
+    return (
         <>
-        <section className="section1">
+            <section className="section1">
                 <div className="nav">
                     <div className="lg">
                         <img src={logo} alt="" />
+                    </div>
+                    <div className="navbar">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.29688 6.64062H20.7031M4.29688 19.1406H20.7031H4.29688ZM4.29688 12.8906H20.7031H4.29688Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div className="links">
                         <a href="">О нас </a>
@@ -23,6 +28,7 @@ function Section_1(){
                     </div>
                     <div className="number">
                         <p>
+
                             +7 (496) 416-19-16
                         </p>
                     </div>
